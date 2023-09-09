@@ -1,0 +1,40 @@
+@import "src/styles/global";
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: map-get($background, "primary");
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Courier New", monospace;
+}
+
+a {
+  color: white;
+
+  &:active {
+    color: yellow;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+.wyhaha {
+  background: $gradient;
+
+}

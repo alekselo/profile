@@ -1,0 +1,160 @@
+// @import "colors";
+// @import "breakpoints";
+
+// @mixin header {
+//   font-family: Montserrat, sans-serif;
+//   font-style: normal;
+//   font-weight: normal;
+//   color: map-get($black, "900");
+// }
+
+// @mixin caption {
+//   font-family: Roboto, sans-serif;
+//   font-style: normal;
+//   font-weight: normal;
+//   color: map-get($black, "900");
+// }
+
+// .h1Extra {
+
+//   @include header;
+
+//   font-weight: bold;
+//   font-size: 50px;
+//   line-height: 60px;
+// }
+
+// .h1Normal {
+
+//   @include header;
+
+//   font-weight: bold;
+//   font-size: 40px;
+//   line-height: 45px;
+
+//   @include media-max($sm) {
+//     font-size: 30px;
+//     line-height: 40px;
+//   }
+// }
+
+// .h2Normal {
+
+//   @include header;
+
+//   font-weight: 600;
+//   font-size: 30px;
+//   line-height: 40px;
+// }
+
+// .h2Light {
+
+//   @include header;
+
+//   font-size: 30px;
+//   line-height: 40px;
+// }
+
+// .h2Bold {
+
+//   @include header;
+
+//   font-weight: bold;
+//   font-size: 30px;
+//   line-height: 40px;
+// }
+
+// .h3Normal {
+
+//   @include header;
+
+//   font-weight: 500;
+//   font-size: 25px;
+//   line-height: 35px;
+// }
+
+// .h3Light {
+
+//   @include header;
+
+//   font-weight: 300;
+//   font-size: 25px;
+//   line-height: 35px;
+// }
+
+// .h3Bold {
+
+//   @include header;
+
+//   font-weight: bold;
+//   font-size: 25px;
+//   line-height: 35px;
+// }
+
+// .h4Normal {
+
+//   @include header;
+
+//   font-weight: 500;
+//   font-size: 20px;
+//   line-height: 30px;
+// }
+
+// .h4Light {
+
+//   @include header;
+
+//   font-weight: 300;
+//   font-size: 20px;
+//   line-height: 30px;
+// }
+
+// .h5Normal {
+
+//   @include header;
+
+//   font-weight: 500;
+//   font-size: 17px;
+//   line-height: 20px;
+// }
+
+// .bodyNormal {
+//   font-family: Roboto, sans-serif;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 15px;
+//   line-height: 20px;
+// }
+
+// .bodyBold {
+//   font-family: Roboto, sans-serif;
+//   font-style: normal;
+//   font-weight: bold;
+//   font-size: 15px;
+//   line-height: 20px;
+// }
+
+// .captionNormal {
+
+//   @include caption;
+
+//   font-size: 13px;
+//   line-height: 15px;
+// }
+
+// .captionBold {
+
+//   @include caption;
+
+//   font-weight: bold;
+//   font-size: 13px;
+//   line-height: 15px;
+// }
+
+// .captionSmall {
+
+//   @include caption;
+
+//   font-size: 12px;
+//   line-height: 15px;
+// }
