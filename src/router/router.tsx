@@ -26,4 +26,4 @@ export const router = createBrowserRouter([
     path: "*",
     element: <AboutMePage />,
   },
-]);
+], {basename: "/profile"});
