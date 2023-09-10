@@ -1,160 +1,40 @@
-// @import "colors";
-// @import "breakpoints";
+@import "colors";
+@import 'fonts';
 
-// @mixin header {
-//   font-family: Montserrat, sans-serif;
-//   font-style: normal;
-//   font-weight: normal;
-//   color: map-get($black, "900");
-// }
 
-// @mixin caption {
-//   font-family: Roboto, sans-serif;
-//   font-style: normal;
-//   font-weight: normal;
-//   color: map-get($black, "900");
-// }
+@mixin h1Normal {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: map-get($text, 'primary');
+}
 
-// .h1Extra {
+@mixin h2Normal {
+    @include h1Normal;
+    font-size: 48px;
+}
 
-//   @include header;
+@mixin h3Normal {
+    @include h1Normal;
+    font-size: 36px;
+    line-height: 88.5%; /* 31.86px */
+}
 
-//   font-weight: bold;
-//   font-size: 50px;
-//   line-height: 60px;
-// }
+@mixin bodyNormal {
+    @include h1Normal;
+    font-size: 28px;
 
-// .h1Normal {
+}
 
-//   @include header;
+@mixin captionNormal {
+    @include h1Normal;
+    font-size: 24px;
 
-//   font-weight: bold;
-//   font-size: 40px;
-//   line-height: 45px;
+}
 
-//   @include media-max($sm) {
-//     font-size: 30px;
-//     line-height: 40px;
-//   }
-// }
-
-// .h2Normal {
-
-//   @include header;
-
-//   font-weight: 600;
-//   font-size: 30px;
-//   line-height: 40px;
-// }
-
-// .h2Light {
-
-//   @include header;
-
-//   font-size: 30px;
-//   line-height: 40px;
-// }
-
-// .h2Bold {
-
-//   @include header;
-
-//   font-weight: bold;
-//   font-size: 30px;
-//   line-height: 40px;
-// }
-
-// .h3Normal {
-
-//   @include header;
-
-//   font-weight: 500;
-//   font-size: 25px;
-//   line-height: 35px;
-// }
-
-// .h3Light {
-
-//   @include header;
-
-//   font-weight: 300;
-//   font-size: 25px;
-//   line-height: 35px;
-// }
-
-// .h3Bold {
-
-//   @include header;
-
-//   font-weight: bold;
-//   font-size: 25px;
-//   line-height: 35px;
-// }
-
-// .h4Normal {
-
-//   @include header;
-
-//   font-weight: 500;
-//   font-size: 20px;
-//   line-height: 30px;
-// }
-
-// .h4Light {
-
-//   @include header;
-
-//   font-weight: 300;
-//   font-size: 20px;
-//   line-height: 30px;
-// }
-
-// .h5Normal {
-
-//   @include header;
-
-//   font-weight: 500;
-//   font-size: 17px;
-//   line-height: 20px;
-// }
-
-// .bodyNormal {
-//   font-family: Roboto, sans-serif;
-//   font-style: normal;
-//   font-weight: normal;
-//   font-size: 15px;
-//   line-height: 20px;
-// }
-
-// .bodyBold {
-//   font-family: Roboto, sans-serif;
-//   font-style: normal;
-//   font-weight: bold;
-//   font-size: 15px;
-//   line-height: 20px;
-// }
-
-// .captionNormal {
-
-//   @include caption;
-
-//   font-size: 13px;
-//   line-height: 15px;
-// }
-
-// .captionBold {
-
-//   @include caption;
-
-//   font-weight: bold;
-//   font-size: 13px;
-//   line-height: 15px;
-// }
-
-// .captionSmall {
-
-//   @include caption;
-
-//   font-size: 12px;
-//   line-height: 15px;
-// }
+@mixin cationGrand {
+    @include h1Normal;
+    font-size: 42px;
+}

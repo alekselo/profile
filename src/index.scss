@@ -1,5 +1,7 @@
 @import "src/styles/global";
 
+
+
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -10,7 +12,7 @@ html {
 body {
   background-color: map-get($background, "primary");
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  font-family: 'Montserrat';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
