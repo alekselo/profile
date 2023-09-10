@@ -22,6 +22,11 @@
     line-height: 88.5%; /* 31.86px */
 }
 
+@mixin h4Normal {
+    @include h1Normal;
+    font-size: 30px;
+}
+
 @mixin bodyNormal {
     @include h1Normal;
     font-size: 28px;

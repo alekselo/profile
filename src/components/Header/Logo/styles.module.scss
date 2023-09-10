@@ -1,0 +1,12 @@
+@import '/src/styles/global.scss';
+
+.link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    &:active {
+        color: inherit;
+    }
+}
+

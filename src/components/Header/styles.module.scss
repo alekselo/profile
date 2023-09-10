@@ -1,5 +1,37 @@
 @import '../../styles/global.scss';
 
+.header {
+    @include h4Normal;
+    position: fixed;
+    height: 130px;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: map-get($background, 'primary');
+    display: flex;
+}
+
 .container {
-    background: map-get($background, 'secondary');
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+// .logoWrapper {
+//     @include h2Normal;
+// }
+.navigationWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.linksWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
 }

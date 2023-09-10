@@ -1,0 +1,18 @@
+@import '/src/styles/global.scss';
+
+.container {
+    display: flex;
+    gap: 100px;
+}
+
+.link {
+    text-decoration: none;
+
+    &:hover {
+        color: map-get($text, 'hover');
+    }
+}
+
+.active {
+    color: map-get($text, 'hover');
+}
