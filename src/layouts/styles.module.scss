@@ -1,0 +1,23 @@
+@import "src/styles/global";
+
+
+.hideContent {
+    @include h1Normal;
+    display: none;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    background: $gradient;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999; 
+    text-align: center;
+}
+
+@media (max-width: 1220px) {
+    .hideContent {
+      display: flex; /* Показываем overlay контейнер */
+    }
+  }

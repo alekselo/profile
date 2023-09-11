@@ -1,0 +1,33 @@
+@import '/src/styles/global.scss';
+
+
+.skillsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Равномерное распределение столбцов */
+    max-width: 1260px; /* Максимальная ширина контейнера, чтобы не было слишком широких столбцов */
+    margin: 0 auto; /* Центрирование контейнера на странице */
+  }
+  
+  .skillsItems {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Равномерное распределение элементов */
+    width: 100%;
+  }
+  
+  .item {
+    @include h3Normal;
+    flex-basis: calc(33.33% - 10px); /* 33.33% ширины с отступами между элементами */
+    margin-bottom: 20px; /* Отступ между элементами */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    list-style-type: disc;
+  }
+
+
+

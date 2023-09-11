@@ -1,6 +1,5 @@
 @import "src/styles/global";
-
-
+@import "/src/styles/reset";
 
 html {
   scroll-behavior: smooth;
@@ -12,7 +11,7 @@ html {
 body {
   background-color: map-get($background, "primary");
   margin: 0;
-  padding: 0 20px;
+  padding: 0 20px; 
   color: map-get($text, "primary");
   font-family: 'Montserrat';
   -webkit-font-smoothing: antialiased;

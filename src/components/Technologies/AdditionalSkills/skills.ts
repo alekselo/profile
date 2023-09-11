@@ -1,0 +1,15 @@
+export const skills: string[] = [
+    'GIT',
+    'Storybook',
+    'Gitlab',
+    'Youtrack',
+    'Jest',
+    'Figma',
+    'I18n',
+    'Styled-components',
+    'ESLint',
+    'Prettier',
+    'Teamwork',
+    'Communicability',
+    'Responsibility',
+]

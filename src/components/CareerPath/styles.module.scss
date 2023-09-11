@@ -1,0 +1,11 @@
+@import '/src/styles/global.scss';
+
+.sorry {
+    @include h1Normal;
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    height: 100vh; /* Высота равна высоте экрана */
+    margin: 0;
+    text-align: center;
+  }

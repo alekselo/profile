@@ -9,6 +9,7 @@
     left: 0;
     background: map-get($background, 'primary');
     display: flex;
+    z-index: 10;
 }
 
 .container {

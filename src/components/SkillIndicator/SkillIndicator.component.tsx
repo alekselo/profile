@@ -11,7 +11,7 @@ export const SkillIndicator = ({ percentage, name }: SkillIndicatorProps) => {
       return "Begginer";
     } else if (percentage < 65) {
       return "Regular";
-    } else if (percentage < 100) {
+    } else if (percentage <= 100) {
       return "Advanced";
     }
   };

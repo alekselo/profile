@@ -1,3 +1,5 @@
+import { CareerPath } from "../../components/CareerPath/CareerPath.component";
+
 export const CareerPathPage = () => {
-  return <div>CareerPath</div>;
+  return <CareerPath />;
 };
