@@ -36,6 +36,7 @@
 @mixin captionNormal {
     @include h1Normal;
     font-size: 24px;
+    font-weight: normal;
 
 }
 
