@@ -1,5 +1,38 @@
+@import '/src/styles/global.scss';
+
 .container {
     margin-top: 130px;
     width: 100%;
-    color: green;
+}
+
+.aboutWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.aboutPhotoContainer {
+    position: relative; 
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    background: $gradient;
+}
+.aboutPhoto {
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: 95%;
+    background: transparent;
+    border-radius: 50%;
+    background-image: url('../../assets/images/profile.jpg');
+    background-repeat: no-repeat;
+    background-position:46% 17%;
+}
+
+.aboutText {
+    text-align: center;
+    text-indent: 50px;
+    line-height: 30px;
 }

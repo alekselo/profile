@@ -13,6 +13,7 @@ body {
   background-color: map-get($background, "primary");
   margin: 0;
   padding: 0 20px;
+  color: map-get($text, "primary");
   font-family: 'Montserrat';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -24,20 +25,10 @@ code {
 
 a {
   color: white;
-
-  &:active {
-    color: yellow;
-  }
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
-
-
-.wyhaha {
-  background: $gradient;
-
 }
