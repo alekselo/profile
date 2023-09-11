@@ -1,3 +1,5 @@
+import { Technologies } from "../../components/Technologies/Technologies.component";
+
 export const TechnologiesPage = () => {
-  return <div>Technologies</div>;
+  return <Technologies />;
 };
