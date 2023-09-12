@@ -1,0 +1,32 @@
+@import "src/styles/global";
+
+.container {
+    height: 150px;
+    margin: 100px 150px 50px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts {
+    @include captionGrand;
+    display: flex;
+    gap: 130px;
+}
+
+.contactsItem {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    & a {
+    text-decoration: none;
+
+    }
+
+    & a:hover {
+        color: map-get($text, 'hover');
+    }
+}
