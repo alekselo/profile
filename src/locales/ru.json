@@ -1,0 +1,14 @@
+{
+  "translation": {
+    "aboutMe": "Обо мне",
+    "technologies": "Технологии",
+    "careers": "Карьера",
+    "main": {
+      "one": "один"
+    },
+    "footer": {
+      "callMe": "Позвоните мне",
+      "email": "Напишите мне"
+    }
+  }
+}

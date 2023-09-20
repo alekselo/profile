@@ -1,23 +1,31 @@
 import { NavLink } from "react-router-dom";
 import cn from "classnames";
 import styles from "./styles.module.scss";
+import { useTranslation } from "react-i18next";
 
 export const NavBar = () => {
+  const { t, i18n } = useTranslation();
   const getActiveClass = ({ isActive }: { isActive: boolean }): string => {
     return isActive ? cn(styles.active, styles.link) : styles.link;
+  };
+
+  const changeLng = (lng: string) => {
+    i18n.changeLanguage(lng);
   };
 
   return (
     <div className={styles.container}>
       <NavLink className={getActiveClass} to="/">
-        About Me
+        {t("aboutMe")}
       </NavLink>
       <NavLink className={getActiveClass} to="/technologies">
-        Technologies
+        {t("technologies")}
       </NavLink>
       <NavLink className={getActiveClass} to="/career">
-        Career Path
+        {t("careers")}
       </NavLink>
+      <button onClick={() => changeLng("ru")}>ru</button>
+      <button onClick={() => changeLng("en")}>en</button>
     </div>
   );
 };

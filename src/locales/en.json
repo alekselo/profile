@@ -1,0 +1,14 @@
+{
+  "translation": {
+    "aboutMe": "About Me",
+    "technologies": "Technologies",
+    "careers": "Career Path",
+    "main": {
+      "one": "one"
+    },
+    "footer": {
+      "callMe": "Call Me",
+      "email": "Email"
+    }
+  }
+}
