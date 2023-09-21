@@ -4,28 +4,22 @@ import styles from "./styles.module.scss";
 import { useTranslation } from "react-i18next";
 
 export const NavBar = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const getActiveClass = ({ isActive }: { isActive: boolean }): string => {
     return isActive ? cn(styles.active, styles.link) : styles.link;
-  };
-
-  const changeLng = (lng: string) => {
-    i18n.changeLanguage(lng);
   };
 
   return (
     <div className={styles.container}>
       <NavLink className={getActiveClass} to="/">
-        {t("aboutMe")}
+        {t("navlink.about")}
       </NavLink>
       <NavLink className={getActiveClass} to="/technologies">
-        {t("technologies")}
+        {t("navlink.technologies")}
       </NavLink>
       <NavLink className={getActiveClass} to="/career">
-        {t("careers")}
+        {t("navlink.career")}
       </NavLink>
-      <button onClick={() => changeLng("ru")}>ru</button>
-      <button onClick={() => changeLng("en")}>en</button>
     </div>
   );
 };

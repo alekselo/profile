@@ -1,10 +1,15 @@
 {
   "translation": {
-    "aboutMe": "About Me",
-    "technologies": "Technologies",
-    "careers": "Career Path",
-    "main": {
-      "one": "one"
+    "navlink": {
+      "about": "About Me",
+      "technologies": "Technologies",
+      "career": "Career Path"
+    },
+    "about": {
+      "main": {
+        "first": "Hello! My name is Alexey Loktev. I am {{age}} years old and work as a frontend developer.",
+        "second": "I completed my secondary education at the school affiliated with the Embassy of the Russian Federation in Madrid, Spain. After successfully passing my exams, I joined the Russian military. Following my military service, I enrolled in the Higher School of Economics in Nizhny Novgorod, specializing in innovation management. After graduating from university, I had the opportunity to work in various fields, ranging from banking to customs. However, after the events of 2022, I lost my job and decided to dedicate my free time to learning frontend development. I have a family, including a little daughter and an even smaller French Bulldog. I enjoy playing the guitar, have a strong passion for basketball, and find everything related to construction fascinating. Most importantly, after working in an IT company, I have no interest in pursuing a career in other fields. Therefore, I have made the decision to stay committed to the path of a frontend developer, continually improving my skills and becoming a professional in this field."
+      }
     },
     "footer": {
       "callMe": "Call Me",

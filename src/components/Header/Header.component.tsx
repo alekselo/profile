@@ -1,3 +1,4 @@
+import { ChangeLanguageButton } from "../ChangeLanguageButton/ChangeLanguageButton.component";
 import { Links } from "./Links/Links.component";
 import { Logo } from "./Logo/Logo.component";
 import { NavBar } from "./NavBar/NavBar.component";
@@ -15,6 +16,7 @@ export const Header = () => {
         </div>
         <div className={styles.linksWrapper}>
           <Links />
+          <ChangeLanguageButton />
         </div>
       </div>
     </header>

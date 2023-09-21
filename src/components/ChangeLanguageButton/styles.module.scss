@@ -1,0 +1,10 @@
+@import '/src/styles/global.scss';
+
+.button {
+    border: 1px solid map-get($text, "primary");
+    background: transparent; 
+    padding: 10px;
+    color: map-get($text, "primary"); 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
